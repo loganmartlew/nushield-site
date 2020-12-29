@@ -1,25 +1,29 @@
 .carousel-section {
   width: 100%;
-  padding: 20px;
-
-  .container {
-    // width: 300px;
-    // height: 200px;
-    // background: red;
-  }
 
   .glide__slide {
-    width: 500px;
-    height: 350px;
+    width: 100vw;
+    height: var(--hero-height);
   }
 
   #glide-1 {
-    background: red;
+    background-image: url(../images/doctor.jpg);
+    background-size: cover;
   }
   #glide-2 {
     background: green;
   }
   #glide-3 {
     background: blue;
+  }
+
+  .glide {
+    position: relative;
+
+    .glide__bullets {
+      position: absolute;
+      left: 5vw;
+      bottom: 20px;
+    }
   }
 }

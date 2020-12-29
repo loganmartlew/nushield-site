@@ -2,22 +2,27 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
   width: 100%;
-  height: 10vh;
-  padding: 0 clamp(2em, 10vw, 30em);
+  height: 7vh;
   box-sizing: border-box;
-  background: white;
-
-  img {
-    height: 90%;
-  }
+  background: var(--color-primary);
 
   nav {
+    display: flex;
+    justify-content: space-between;
     height: 100%;
+    width: 92%;
+    margin: 0 auto;
+
+    img {
+      height: 130%;
+      margin-top: 10px;
+      z-index: 1;
+    }
 
     ul {
       display: flex;
+      justify-content: space-between;
       list-style: none;
       height: 100%;
 
@@ -25,20 +30,16 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 20px;
+        margin: 0 15px;
 
         a {
           display: flex;
           align-items: center;
           height: 100%;
           padding: 10px;
-          color: var(--text-color);
+          color: white;
+          font-size: 1em;
           transition: 100ms;
-
-          &:hover {
-            background: var(--color-primary);
-            color: white;
-          }
         }
       }
     }

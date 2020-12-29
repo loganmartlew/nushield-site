@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap');
+@import 'node_modules/@glidejs/glide/src/assets/sass/glide.core';
+@import 'node_modules/@glidejs/glide/src/assets/sass/glide.theme';
+
+:root {
+  --text-color: #000;
+  --font-primary: 'Nunito', sans-serif;
+  --color-primary: #09a7e1;
+  --color-secondary: #0083b3;
+  --color-primary-light: #bfe1eb;
+  // --color-primary-light: #d6edea;
+  // --color-primary-light: #8bd4fe;
+  --color-primary-dark: #006990;
+  --hero-height: 60vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-primary);
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+section {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.cta-btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: var(--color-primary);
+
+  a {
+    color: white;
+    font-size: 2em;
+  }
+}
+
+@import './header.scss';
+@import './hero.scss';
+@import './carousel.scss';
+@import './main.scss';

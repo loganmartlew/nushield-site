@@ -1,11 +1,37 @@
 .hero {
-  display: grid;
-  place-content: center;
+  position: relative;
   width: 100%;
-  height: 100vh;
-  background-image: url(../images/doctor.jpg);
+  height: var(--hero-height);
   background-size: cover;
   background-position: center;
+  overflow: hidden;
+
+  aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30vw;
+    height: var(--hero-height);
+    padding: 100px 40px;
+    background: rgba(#0083b3, 0.4);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    box-sizing: border-box;
+
+    ul {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto auto auto auto;
+      height: 100%;
+      list-style: none;
+
+      li {
+        display: grid;
+        place-content: center;
+        color: white;
+      }
+    }
+  }
 
   h1 {
     margin-bottom: 40px;
