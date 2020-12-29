@@ -1,0 +1,25 @@
+.carousel-section {
+  width: 100%;
+  padding: 20px;
+
+  .container {
+    // width: 300px;
+    // height: 200px;
+    // background: red;
+  }
+
+  .glide__slide {
+    width: 500px;
+    height: 350px;
+  }
+
+  #glide-1 {
+    background: red;
+  }
+  #glide-2 {
+    background: green;
+  }
+  #glide-3 {
+    background: blue;
+  }
+}

@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  padding: 0 clamp(2em, 10vw, 30em);
+  box-sizing: border-box;
+  background: white;
+
+  img {
+    height: 90%;
+  }
+
+  nav {
+    height: 100%;
+
+    ul {
+      display: flex;
+      list-style: none;
+      height: 100%;
+
+      li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+
+        a {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          padding: 10px;
+          color: var(--text-color);
+          transition: 100ms;
+
+          &:hover {
+            background: var(--color-primary);
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
