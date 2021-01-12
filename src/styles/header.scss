@@ -15,7 +15,7 @@ header {
     margin: 0 auto;
 
     img {
-      height: 130%;
+      height: 170%;
       margin-top: 10px;
       z-index: 1;
     }
@@ -30,6 +30,7 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        position: relative;
         margin: 0 15px;
 
         a {
@@ -40,8 +41,29 @@ header {
           color: white;
           font-size: 1em;
           transition: 100ms;
+          z-index: 2;
+        }
+
+        &::after {
+          position: absolute;
+          content: '';
+          left: 10px;
+          bottom: 14px;
+          width: 0px;
+          height: 2px;
+          background: white;
+          transition: 130ms;
+          z-index: 1;
+        }
+
+        &:hover {
+          &::after {
+            width: calc(100% - 20px);
+          }
         }
       }
     }
   }
 }
+
+// breakpoint 550px

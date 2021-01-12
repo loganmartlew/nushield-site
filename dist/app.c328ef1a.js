@@ -3667,12 +3667,115 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\doctor.jpg":[["doctor.7c285a34.jpg","images/doctor.jpg"],"images/doctor.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"app.js":[function(require,module,exports) {
+},{"./..\\images\\doctor.jpg":[["doctor.7c285a34.jpg","images/doctor.jpg"],"images/doctor.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"manufacturers.json":[function(require,module,exports) {
+module.exports = ["160", "3M", "3Q", "Waveshare", "AARP", "Aava", "ABB", "Abbot Point of Care", "AcCele Vision", "Accurate Scale", "Acer", "Acrosser", "ACS", "Actia", "Acura", "ADM", "AdsTec", "Advanced Electronic Design", "Advanced Flight Systems", "Advantech", "Advent", "Adventure Pilot", "Advueu", "AEG", "Affirmative", "Ag Leader", "AG Neovo", "AGCO", "AgJunction", "AgNAV", "Ainol", "Aircraft Cabin Systems", "Airis", "Aishuo", "Alcatel", "Alienware", "Align Technology", "Alldocube", "Allen-Bradley", "Alltel", "AlphaSmart", "Alpine", "Aluratek", "Amada", "Amano-McGann", "Amazon", "AMH", "Amtek", "Anleng", "Anywhere Map", "AOC", "AOpen", "Apad", "Apex", "Aplex", "Apollo", "Apple", "Apple Newton", "Aqua-Vu", "Aquatic AV", "Archos", "Argonaut", "Arima", "Arista", "Arnova", "Arthrex", "Artic Sun", "ASA", "Astro-Med", "Asus", "AT&T", "Atomos", "Audi", "Audiovox", "Augen", "AUO", "Aures Technologies", "Aurora TVS", "Autel", "Autocite", "Automation Direct", "Auvio", "Avalue Technology", "Avaya", "Averatec", "Avery Dennison", "AVG", "Aviation Safety", "Avidyne", "AVMAP", "Avocent", "Avtex", "Awareness Technology", "Axiomtek", "Axiotron", "Axis", "Axxera", "Azentek", "Azpen", "Azure", "B&R Industrial Automation Corp", "Balance Digital Technology", "Baltic", "Barco", "Barnes & Noble", "Bartech", "BD", "Beck Automation", "Becker", "Beckhoff", "Beijer Electronics", "Belinea", "Belview", "Bendix-King", "Benesse", "BenQ", "Bentley", "Bernina", "Bilanciai", "Blackberry", "BlackMagic Design", "Blackview", "Blaupunkt", "BLU", "Blue Media", "Bluebird", "BMW", "BOE hydis", "Bon Electronics", "Book Digital", "Bookeen", "Boss", "Boyo Vision", "Broadax Systems", "Broadcastvision Entertainment", "Broksonic", "Buick", "Bystronic", "Bytespeed", "C-P Microsystems", "Cab Cam", "CaddyTronic", "Cadillac", "Cale America", "Caltron", "Can-Am", "Canon", "Canvys", "CarTFT", "Cascade MVS", "Case New Holland", "Casio", "Catapillar", "CC Systems", "Celcus", "Celsius Films", "Champ", "Chatillon", "Chelton", "Chevrolet", "Chiao Sheng", "Chingtek", "Christie Digital", "Chrysler", "Chuwi", "Cielo", "Cincinnati", "Cingular", "Cisco", "Citadel", "Clarion", "Clearwave", "Clevo", "Clover", "CMC  Electronics", "Coban", "Cobra", "Coby", "Compal", "Compass", "Compudata", "Computer Food Systems", "Conrac", "Cooper Crouse-Hinds", "Cosworth", "Cowon", "Craig Electronics", "Creative", "Crestron", "Cricut", "CrossControl", "CrossCotrol", "Crossover", "CSI", "CTA Digital", "CTC Parker Automation", "CTI", "CTL", "Culter-Hammer", "Custron", "Cyberbank", "Cyberhome", "Cybernet", "Cydtech", "Dadson", "Daisy Data", "Dakim", "DAP Technologies", "DART", "Dasa", "Dasaita", "Data Ltd.", "Data911", "Datalogic", "Datalux", "Datascope", "Datavideo", "DAWAR", "Delem", "Dell", "Delta Electronics", "DENSO WAVE", "Dexcom", "DFI", "Dialogue", "Diebold", "DigiKey", "Digimate", "DigiPos", "Digital Decor", "Digital Dispatch", "Digital Spectrum", "Digital Touch Systems", "DIRECTV", "Disgo", "Display Devices", "DisplayTech", "DLoG", "DNA Designer Audio", "DNS Electronics", "Dodge", "DOOGEE", "Doro", "Double Power", "Doublesight", "Draeger Medical", "Dragon Touch", "Dranetz-BMI", "Drive", "DRS", "DSLRPROS", "DT Research", "Dual", "Duncan", "Durabook", "Durant", "DuraTah", "Durotouch", "DVDNow", "Dynamix", "Dynascan", "Dynavin", "Dynavox", "Dynex", "Dynics", "Dynon", "Dynova", "E-Ten", "Eagle", "Earth LCD", "East Rising", "eBOOKWISE", "Eclipse", "ECS", "Edan", "Edro", "Efun", "Eizo", "EKE-Electronics Ltd", "Eken", "Elbit Systems", "Electrovaya", "Element", "Elo", "Elocity", "Elonex", "eMachines", "Ematic", "Emerson", "Energy Sistem", "Enforcement Technology", "Enoch Systems", "Entourage", "Envision", "Envizen", "EONON", "ePad", "Epson", "Equinox", "Ergo", "Erisin", "Ermak", "eryncameron", "Escort", "Espey Mfg and Electronics", "eTurboTouch", "Eurotherm", "Everex", "Eversys", "EVGA", "EXOPC", "Exor", "Exor/UniOp", "Expresso", "EZAutomation", "Falcon Trading Systems", "Farenheit", "Farm Works", "Faytech", "Ferrari", "Fiat", "Fiio", "Finlux", "Firefly", "Fisher Labs", "Flightprep", "Fluke", "Flymaster", "Flytech", "Follett", "Ford", "Forever Star", "Fox", "Freehand Systems", "Freelander", "Fryer", "FSN Medical", "Fuhu", "Fujifilm", "Fujitsu", "Fujitsu Siemens", "Furuno", "Fusion", "Fusion5", "FutureCom Global", "Gaems", "Gaomon", "Garmin", "Gateway", "GE", "GE Healthcare", "GE Medical Systems", "GE-Fanuc", "GeChic", "Gemeitech", "Geneq", "General Dynamics", "General Motors", "Geologic", "Getac", "Gettinge", "Gigabyte", "Gilbarco", "Giles Scientific", "Glacier", "Glancetron", "Glidercom", "GlobalSat", "Go Video", "Goclever", "Goldfinger", "Goldhofer", "GolfBuddy", "Google", "Grange Europe Ltd", "Great Quality", "GSSI", "Guide Infrared", "Gunze", "GVision", "Haeger", "Haier", "Hakko Electronics", "Hand Held Products", "Handera", "Handspring", "Handtouch", "Hankscraft", "Hanns-G", "Hannspree", "Harbortouch", "Harley Davidson", "Harvard Apparatus", "Hasda Electric", "Hatteland Display", "HCl", "Heads Up Technologies", "Helios", "Helsyn", "Hi-Grade", "High End", "Hirox", "Hisense", "Hitachi", "HiTech", "Hiteker", "Hoft & Wessel", "Holden", "Honda", "Hondex", "Honeywell", "Hope Industrial", "Horner APG", "HP", "HP-Compaq", "HP-iPAQ", "HP-Jornada", "HRP", "HTC", "Huadoo", "Huawei", "Huion", "Humminbird", "Hydis", "Hydro Electronic Devices", "Hyundai", "I-INC", "Iadea", "IBM", "IBM-Lenovo", "ICP DAS", "Icra", "Idec", "Ideum", "iDot", "IEI", "Iiyama", "IKAN", "iLuv", "iMate", "Impecca", "Impression", "InDataSystems", "Industrial Computers", "Industrial Scientific", "Infiniti", "InFocus", "Infotm", "Ingenico", "Initial", "Innolux", "Innovatek", "Insignia", "Insulet", "Intel", "Intellinav", "Intelliworxx", "Inteprod", "Inter Control", "Interlink Electronics", "Intermec", "Interphase", "Invision Industries", "Invivo", "IPC", "IRD", "iRex", "iRulu", "ISC", "Itronix", "IVC Display", "J2", "Jaguar", "Javelin", "Jensen", "Jetta", "JNC", "John-Deere", "Jointech", "Joying", "JPI Instruments", "JPW Associates", "JRC", "Juniper Systems", "JVC", "Karl Storz", "Kata", "KDS", "Keba", "Kenwood", "Keyence", "KeyTec", "Kia", "Kiefel", "KingPad", "Kobo", "Kodak", "Koden", "Kogan", "Kohjinsha", "Komatsu", "Kontron", "Korg", "Kortech", "Koss", "Kristel LP", "Kronos", "Kurio", "Kurzweil", "Kyocera", "L1 Technologies", "L2ES", "L3 Communications / Henschel", "La Cross", "Labquest", "Lamborghini", "Land Rover", "Landtec", "Lanzar", "Le Pan", "Leader", "Leapfrog", "Leica", "Lenovo", "Lenoxx", "Lexmark", "Lexus", "LG", "Life Racing", "Lilliput", "Lincoln", "LinITX", "Linsay", "Linus International", "Linx", "liyama", "Logic Controls", "Logitech", "Lotus", "Lowrance", "LXE", "Lykketronic", "Mach Speed", "Mag", "Magelis", "Magellan", "Magnadyne", "Magnavox", "Maple Systems", "Mapper", "Marbella", "Marcum", "Marquis", "Marshall", "Maserati", "Massmultimedia", "Matric", "Matrix", "Matrix Orbital", "Matsunichi Digital", "Matsushita", "Mazda", "McLaren", "MDG Canada", "MediaTek", "Medion", "Medivance", "Memores", "Memorex", "Mentor Engineering", "Mercedes Benz", "Mercury", "Merel Technologies", "Meridian", "Messer", "Metra", "MF", "Micros Oracle", "Microsoft", "Microstar International", "Microtech", "Midtronics", "MIG", "MILPM", "MIMO", "MindRay", "Minelab", "Minitronix", "Mirrus", "Mitac", "Mitsubishi", "Mobile Compia", "MobileDemand", "MoBitS Electronics", "Mocar", "Modbook Inc", "Modular Industrial Computers", "Modular Mining Systems", "Monoprice", "Mosaic Industries", "Motion Computing", "Motorola", "MPC", "MSI", "MTS industrial", "Multi-Tech", "MWg", "Myron L Company", "Nabi", "Nagasaki", "NAL Research Corp", "National Display Systems", "National Instruments", "Nationite MidNite", "Nautilus Hyosung", "Nautiz", "Nav N Go", "NavAero", "NAVIG8R", "Navigon", "NavITer", "Navman", "Navsgo", "Naxa", "NCR", "NDS", "NEC", "Nematron", "Neo FreeRunner", "NeoCore", "Neoware", "Nevo", "Newhaven Display", "Newline-Interactive", "Nextbook", "Nextwindow", "Nihon Kohden", "Nikon", "Nintendo", "Nissan", "Nix", "Nixdorf", "Nixeus", "Noax", "Nobilis", "Noblilis", "Nokia", "Noritsu", "Norteck", "Northstar", "Notion Ink", "Novariant", "Novatech Direct", "Novogo", "NuVision", "Nvidia", "NYC Transit", "O2", "Obvious", "Oceanvolt", "Okuma", "Olson Instruments", "Olympus", "Ometer International", "Omnitech", "Omron", "Onda", "ONELAN", "OnePlus", "Onpar", "Onyx", "Onyx Healthcare", "Openmoko", "Opticon", "Optik View", "Optiplex", "Optix", "Optrex", "Optros", "OQO", "Orange", "Orion", "OTC", "Outback Guidance", "Overlord", "PaceBlade", "Packard Bell", "Palm", "Panasonic", "Pandigital", "Pantech", "Pantel", "Par Tech", "Park Industries", "Parker Hannifin", "Parrot", "Partner Tech", "Pebble", "PEC Products", "Peerless", "Pelham Sloan", "Peloton", "Penta", "Pepper Computer", "Perfecta", "Peugeot", "PH-Geophysics", "Pharos", "Philips", "Phoenix Contact", "PI Electronics", "Pinax", "Pioneer", "Pioneer Computers", "Pipo", "Planar", "Planetbingo", "Plenio", "Ployer", "Plum", "PMC", "PocketBook", "Point of View", "Polar", "Polaris", "Polaroid", "Pontiac", "Porsche", "Posh", "Posiflex", "POSX", "Power Acoustik", "PowerAXEL", "PowerPro", "Precision Seedsense", "Preh", "Prentke Romich", "Princeton", "Prodim", "Proface", "Profoto", "Proscan", "Prostar", "Protech Systems", "Proview", "Provo Craft", "PSC", "Psion", "PsiXpda", "Puritron", "PYLE", "Q-matic", "Qtek", "Qualcom", "Quantum Computers", "Quantum View", "Que", "QUE Electronics", "Radiance", "Radiant", "Radiometer", "RAE", "Rain Case", "Ram", "Ramos", "Rand McNally", "Raven", "Raymarine", "Raytheon", "Razer", "RCA", "Reach Technology", "Rear View Systems", "Red", "Red Lion", "Relli Technology Holland bv", "Remkon", "Renualt", "Response", "Revolution", "Reynolds and Reynolds", "Rhode & Schwarz", "Richardson Electronics", "RigMinder", "RKI", "Road Emperor", "Roadnavi", "Rock", "Rockwell Collins", "Rosen", "RSNAV", "Rugged Notebooks", "Saab", "Sable", "Sager", "Samsung", "Sandard Horizon Yaesu", "Sanei", "Sansui", "Sanyo", "Satake", "Sceptre", "Schechtl", "Schenck", "Schneider Electric", "Scientific Games", "Scion", "Scott", "Scroll", "SDB Systems", "Sea Level", "Seetec", "Seform", "Seiki", "Sensors & Software", "Sharp", "ShenZen Hopestar", "SHI", "Shift3", "Shimadzu", "ShoreTel", "Shuttle", "Si-Tex", "Siemens", "Silverstone", "Simbans", "Simrad", "Sincoole", "Sirius Radio", "Sky", "Skytex", "Skytron", "SmallHD", "SmallPC", "Smart Rover", "Smart Technologies", "SmartBox", "Snap-On", "Snooper", "Sodick", "Soniq", "SonoSite", "Sony", "Sony Ericsson", "Soun Eklin", "Soundstream", "Southwestern Industries", "Sovos", "Soyo", "SpaceLabs", "Spectra Precision", "Sperry", "Sprint", "Squirrel Systems", "Standard Horizon", "Starbucks", "STRONGARM Designs", "Stryker", "STX Technology", "Subaru", "Subsite", "Sunair", "Sunbrite", "Sunrise Telecom", "Superflow X", "SuperLogics", "Supersonic", "SureshotGPS", "Suzuki", "Sylvania", "Symbol", "Synaps", "Synergy", "Sysmex", "Systemax", "T-Mobile", "tabletkiosk", "Taku Engineering", "Tangent", "Tapwave", "Tascam", "TCL", "TEAMSable", "Teclast", "Tecnova", "TegaTech", "Tegel", "Teguar", "TekServePOS", "Tektronix", "TeKVisions", "Teleinstrument Electronic Corp", "Telemecanique", "Teletype Worldnav", "Telikin", "Tequar", "Teradyne", "Terralogic", "Tesco", "Tesla", "Tetratab", "Thales", "TI", "TL Electronic", "TMAX", "Tobii", "TomTom", "Top Mix", "Topaz", "Topcon", "Toshiba", "Total Control Solutions", "Totoku", "Touch Dynamics", "Touch Revolution", "Toucheasy", "Touchstone Technology", "TouchSystems", "Tovis", "Toyota", "TRAK", "Tranax", "Transduction", "Transvideo", "Trapeze", "Trimble", "Trio", "Triton", "Tru-Vu", "Trumpf", "Trutech", "TruTouch Monitor", "TSSI", "TTX", "Turbo Data Systems", "Turbo-X", "TView", "TVLogic", "Twinhead", "Two Technologies", "Unaohm", "Uniop", "Unistrong", "Unitech", "United Protective Technologies", "Unitronics", "Uniwill", "Unnecto", "USC", "Uson Testra", "Uticor", "UTP Vision", "V7", "Valcretec", "Valor", "Vartech", "Vasari", "Vatop", "VDS", "Velocitek", "Velocity", "Velocity Micro", "VeriFone", "Verizon", "Vernier", "Vernon Tool", "Versagraph", "VeryKool", "Vesper Marine", "Vexilar", "VibrAlign", "VideoJet", "Viewsonic", "Viewtek", "ViewZ", "Viking/Husqvarna", "Viliv", "Viore", "Visix", "Visual Innovations", "Visual Land", "Vivo", "Vizio", "Volkswagon", "Volvo", "VTech", "Vuescape", "Vulcan Electronics", "Wacom", "Waive", "Walton", "Wasabi Mango", "Watkins", "Waywell", "Welch Allyn", "Weldon", "Westinghouse", "Whites Electronics", "WIDE", "Wileyfox", "Winbook", "WindowPC", "Winmate", "WiSe", "Wittmann", "Wondermedia", "Wonderware", "Worcol", "WOW", "Wowpad -SuperPad II", "Wyse", "X-Pilot", "Xenarc", "Xerox", "Xiaomi", "XiteSolutions", "XM Radio", "Xplore Technologies", "Xplorer", "xTablet", "Xybernaut", "Xycom", "Yamaha", "Yaskawa", "Yealink", "Yinova", "Yokogawa", "YSI", "Yuandao", "Yuneec", "Zalman", "Zenith", "Zenithink", "Zetec", "Zoll", "Zoostorm", "ZTE"];
+},{}],"models.json":[function(require,module,exports) {
+module.exports = ["one", "two", "three"];
+},{}],"quickOrder.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _manufacturers = _interopRequireDefault(require("./manufacturers.json"));
+
+var _models = _interopRequireDefault(require("./models.json"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+// const loadModels = () => {
+//   console.log('change');
+//   const select = document.getElementById('quick-models');
+//   models.forEach((item, i) => {
+//     const option = document.createElement('option');
+//     option.value = i + 1;
+//     option.appendChild(document.createTextNode(item));
+//     select.appendChild(option);
+//   });
+// };
+// const loadManufacturers = () => {
+//   const select = document.getElementById('quick-manufacturers');
+//   manufacturers.forEach((item, i) => {
+//     const option = document.createElement('option');
+//     option.value = i;
+//     option.appendChild(document.createTextNode(item));
+//     select.appendChild(option);
+//   });
+//   select.addEventListener('onChange', loadModels);
+// };
+// export default loadManufacturers;
+var QuickOrder = /*#__PURE__*/function () {
+  function QuickOrder() {
+    _classCallCheck(this, QuickOrder);
+
+    this.manuSelect = document.getElementById('quick-manufacturers');
+    this.modelSelect = document.getElementById('quick-models');
+    this.submitBtn = document.getElementById('quick-submit');
+    this.loadManufacturers();
+    this.manuSelect.onchange = this.loadModels.bind(this);
+    this.submitBtn.onclick = this.submit.bind(this);
+  }
+
+  _createClass(QuickOrder, [{
+    key: "loadManufacturers",
+    value: function loadManufacturers() {
+      var _this = this;
+
+      _manufacturers.default.forEach(function (item, i) {
+        var option = document.createElement('option');
+        option.value = i;
+        option.appendChild(document.createTextNode(item));
+
+        _this.manuSelect.appendChild(option);
+      });
+    }
+  }, {
+    key: "loadModels",
+    value: function loadModels() {
+      var _this2 = this;
+
+      _models.default.forEach(function (item, i) {
+        var option = document.createElement('option');
+        option.value = i + 1;
+        option.appendChild(document.createTextNode(item));
+
+        _this2.modelSelect.appendChild(option);
+      });
+    }
+  }, {
+    key: "submit",
+    value: function submit() {
+      var manuId = this.manuSelect.value;
+      var modelId = this.modelSelect.value;
+      var baseUrl = window.location.origin;
+      var url = "".concat(baseUrl, "/order.html?manu=").concat(manuId, "&model=").concat(modelId);
+      window.location.href = url;
+    }
+  }]);
+
+  return QuickOrder;
+}();
+
+var _default = QuickOrder;
+exports.default = _default;
+},{"./manufacturers.json":"manufacturers.json","./models.json":"models.json"}],"app.js":[function(require,module,exports) {
 "use strict";
 
 var _glideModular = _interopRequireWildcard(require("@glidejs/glide/dist/glide.modular.esm"));
 
 require("./styles/styles.scss");
+
+var _quickOrder = _interopRequireDefault(require("./quickOrder"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
 
@@ -3685,7 +3788,10 @@ new _glideModular.default('.glide', options).mount({
   Controls: _glideModular.Controls,
   Swipe: _glideModular.Swipe
 });
-},{"@glidejs/glide/dist/glide.modular.esm":"../node_modules/@glidejs/glide/dist/glide.modular.esm.js","./styles/styles.scss":"styles/styles.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+new _quickOrder.default();
+var date = new Date();
+document.getElementById('year').textContent = date.getFullYear();
+},{"@glidejs/glide/dist/glide.modular.esm":"../node_modules/@glidejs/glide/dist/glide.modular.esm.js","./styles/styles.scss":"styles/styles.scss","./quickOrder":"quickOrder.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -3713,7 +3819,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50922" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54956" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
