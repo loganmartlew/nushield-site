@@ -1,4 +1,7 @@
 footer {
+  display: grid;
+  place-content: center;
   height: 10vh;
   background: var(--color-primary);
+  color: white;
 }
