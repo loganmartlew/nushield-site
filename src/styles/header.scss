@@ -14,10 +14,13 @@ header {
     width: 92%;
     margin: 0 auto;
 
-    img {
-      height: 170%;
-      margin-top: 10px;
+    .img-container {
       z-index: 1;
+
+      img {
+        height: 170%;
+        margin-top: 10px;
+      }
     }
 
     ul {

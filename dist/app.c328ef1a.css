@@ -219,10 +219,12 @@ header nav {
   width: 92%;
   margin: 0 auto;
 }
-header nav img {
+header nav .img-container {
+  z-index: 1;
+}
+header nav .img-container img {
   height: 170%;
   margin-top: 10px;
-  z-index: 1;
 }
 header nav ul {
   display: flex;
